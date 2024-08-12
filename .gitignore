@@ -1,0 +1,16 @@
+# Petalinux metadata:
+*/*/config.old
+*/*/rootfs_config.old
+build/
+images/linux/
+pre-built/linux/
+.petalinux/*
+!.petalinux/metadata
+*.o
+*.jou
+*.log
+/components/plnx_workspace
+/components/yocto
+
+# User files:
+catsdogs_plnx_build_package.sh

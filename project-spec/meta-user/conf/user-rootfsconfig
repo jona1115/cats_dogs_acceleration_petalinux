@@ -1,0 +1,17 @@
+#Note: Mention Each package in individual line
+#These packages will get added into rootfs menu entry
+
+CONFIG_gpio-demo
+CONFIG_peekpoke
+CONFIG_packagegroup-petalinux-som
+
+# cats and dogs edit:
+# For Vitis AI
+CONFIG_vitis-ai-library
+CONFIG_vitis-ai-library-dev
+CONFIG_vitis-ai-library-dbg
+# For Java:
+CONFIG_openjdk-8
+CONFIG_openjdk-7
+CONFIG_openjdk-8-native
+CONFIG_openjre-8
