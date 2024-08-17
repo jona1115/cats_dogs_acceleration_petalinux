@@ -1,0 +1,3 @@
+[submodule "project-spec/meta-user/meta-catsdogs/meta-java"]
+	path = project-spec/meta-user/meta-catsdogs/meta-java
+	url = git://git.yoctoproject.org/meta-java
