@@ -3,7 +3,7 @@
 ### How to clone?
 1. `git clone --recurse-submodules <repo url>`
 
-**What if I accidentally cloned without the `--recurse-submodules flag`?**  
+**What if I accidentally cloned without the `--recurse-submodules` flag?**  
 Not to worry, run these and you should be fine:
 1. `git submodule init`
 2. `git submodule update`
