@@ -271,5 +271,5 @@ CONFIG_YOCTO_NETWORK_SSTATE_FEEDS_URL="http://petalinux.xilinx.com/sswreleases/r
 #
 # User Layers
 #
-CONFIG_USER_LAYER_0="${PROOT}/project-spec/meta-user/meta-catsdogs/meta-java"
+CONFIG_USER_LAYER_0="${PROOT}/project-spec/meta-java"
 CONFIG_USER_LAYER_1=""
