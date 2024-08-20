@@ -19,6 +19,9 @@
 
 Important: If you run into any build/package issues, [this page](https://github.com/jona1115/cats_dogs_acceleration/blob/main/documentations/vivadoTRD_and_Petalinux/README.md) probably has your answer.
 
+### How was this project built?
+Extensive documentation can be found in parent project [here](https://github.com/jona1115/cats_dogs_acceleration/blob/main/documentations/vivadoTRD_and_Petalinux/README.md).
+
 ***
 
 ### References:
