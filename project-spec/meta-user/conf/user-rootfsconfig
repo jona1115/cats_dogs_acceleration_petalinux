@@ -15,3 +15,5 @@ CONFIG_openjdk-8
 CONFIG_openjdk-7
 CONFIG_openjdk-8-native
 CONFIG_openjre-8
+# For nano:
+CONFIG_nano

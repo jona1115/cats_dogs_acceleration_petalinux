@@ -4120,6 +4120,7 @@ CONFIG_Init-manager-systemd=y
 # user packages 
 #
 # CONFIG_gpio-demo is not set
+CONFIG_nano=y
 # CONFIG_openjdk-7 is not set
 CONFIG_openjdk-8=y
 # CONFIG_openjdk-8-native is not set
