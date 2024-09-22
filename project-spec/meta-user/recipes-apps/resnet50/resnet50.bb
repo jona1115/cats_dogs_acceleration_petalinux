@@ -10,7 +10,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7ca
 
 APP_NAME="app"
 APP_PACKAGE = "${APP_NAME}.tar.gz"
-APP_INSTALL_PATH = "/home/root/"
+APP_INSTALL_PATH = "/home/petalinux/"
 
 SRC_URI = "file://${APP_PACKAGE}"
 
