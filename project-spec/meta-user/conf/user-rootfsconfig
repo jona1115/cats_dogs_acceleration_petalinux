@@ -17,3 +17,6 @@ CONFIG_openjdk-8-native
 CONFIG_openjre-8
 # For nano:
 CONFIG_nano
+
+# For resnet50:
+CONFIG_resnet50
