@@ -27,3 +27,9 @@ Extensive documentation can be found in parent project [here](https://github.com
 
 ### References:
 [The default Petalinux README](https://github.com/jona1115/cats_dogs_acceleration_petalinux/blob/main/README).
+
+***
+
+### Petalinux/Yocto Tips
+1. If you need to do something to one specific package (eg building a specific package instead of the whole thing like `petalinux-build`), run: `petalinux-build -c <package> -x [configure|compile|install|package|cleansstate|...]
+
