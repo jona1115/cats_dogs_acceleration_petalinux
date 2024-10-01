@@ -32,4 +32,8 @@ Extensive documentation can be found in parent project [here](https://github.com
 
 ### Petalinux/Yocto Tips
 1. If you need to do something to one specific package (eg building a specific package instead of the whole thing like `petalinux-build`), run: `petalinux-build -c <package> -x [configure|compile|install|package|cleansstate|...]`  
-   Note: The equivalent in Yocto is: `bitbake <package> -c [configure|compile|install|package|cleansstate|...]` (Yeah, idk why Petalinux has to change the flag and make it confusing too)
+   Note: The equivalent in Yocto is: `bitbake <package> -c [configure|compile|install|package|cleansstate|...]`
+2. To enable yocto stuff ie bitbake, do these:
+   1. `source <plnx-proj-root>/components/yocto/environment-setup-aarch64-xilinx-linux`
+   2. `source <plnx-proj-root>/components/yocto/layers/core/oe-init-build-env`
+   3. Run `bitbake strace` to test if BitBake is available.
