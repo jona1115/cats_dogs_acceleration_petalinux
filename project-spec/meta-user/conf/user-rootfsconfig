@@ -20,3 +20,11 @@ CONFIG_nano
 
 # For resnet50:
 CONFIG_resnet50
+
+# From this tutorial: https://adaptivesupport.amd.com/s/article/1138667?language=en_US
+CONFIG_xrt
+CONFIG_xrt-dev
+CONFIG_zocl
+CONFIG_opencl-clhpp-dev
+CONFIG_opencl-headers-dev
+CONFIG_packagegroup-petalinux-opencv
