@@ -4133,7 +4133,6 @@ CONFIG_openjdk-8=y
 # CONFIG_openjre-8 is not set
 CONFIG_packagegroup-petalinux-som=y
 # CONFIG_peekpoke is not set
-# CONFIG_sys-mount is not set
 CONFIG_vitis-ai-library=y
 # CONFIG_vitis-ai-library-dbg is not set
 CONFIG_vitis-ai-library-dev=y
