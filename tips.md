@@ -3,6 +3,8 @@ In this document, I will show you some of my tips on debugging stuff on Yocto/Pe
 ### Some important commands to know when working with Yocto/Petalinux:
 1. `grep`. E.g., `petalinux-build | grep error`. Common grep flags I used: `-v`, find the inverse, e.g. `grep -v build` will exclude everything with the word "build".
 2. `find`. E.g., find a file: `find . -name file_name`; find a string within files: `find . -type f -exec grep -l "string_you_want_to_find" {} \;`
+3. `htop` is a great resource usage manager.
+4. `screen` is great to let things run in the background.
 
 ### Basic Petalinux commands:
 1. Configuration: `petalinux-config -c <kernal|rootfs>` or `petalinux-config`.
