@@ -7,7 +7,7 @@ In this document, I will show you some of my tips on debugging stuff on Yocto/Pe
 ### Basic Petalinux commands:
 1. Configuration: `petalinux-config -c <kernal|rootfs>` or `petalinux-config`.
 2. Build: `petalinux-build`.
-3. module: `petalinux-module`, usually we add more flags, e.g., `petalinux-module --wic --images-dir images/linux/ --bootfiles "boot.scr,Image,system.dtb,system-zynqmp-sck-kv-g-revB.dtb" --disk-name "mmcblk1" --wic-extra-args "-c gzip" --wks catsdogs-module-wic.wks --rootfs-file images/linux/rootfs.tar.gz`.
+3. Package: `petalinux-package`, usually we add more flags, e.g., `petalinux-package --wic --images-dir images/linux/ --bootfiles "boot.scr,Image,system.dtb,system-zynqmp-sck-kv-g-revB.dtb" --disk-name "mmcblk1" --wic-extra-args "-c gzip" --wks catsdogs-module-wic.wks --rootfs-file images/linux/rootfs.tar.gz`.
 
 ### How does Petalinux/Yocto work?
 - Petalinux is built on top of Yocto. Petalinux provides some abstraction for the complicated Yocto system.
