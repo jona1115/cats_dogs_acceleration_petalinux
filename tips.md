@@ -48,3 +48,4 @@ To enable Yocto stuff i.e. bitbake, do these:
 1. `source <plnx-proj-root>/components/yocto/environment-setup-aarch64-xilinx-linux`
 2. `source <plnx-proj-root>/components/yocto/layers/core/oe-init-build-env`
 3. Run `bitbake strace` to test if BitBake is available.
+4. Run `bitbake <recipe> -e` to see the environment variable values of a recipe.
