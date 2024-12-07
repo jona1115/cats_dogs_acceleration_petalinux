@@ -8,6 +8,7 @@ In this document, I will show you some of my tips on debugging stuff on Yocto/Pe
 1. Configuration: `petalinux-config -c <kernal|rootfs>` or `petalinux-config`.
 2. Build: `petalinux-build`.
 3. Package: `petalinux-package`, usually we add more flags, e.g., `petalinux-package --wic --images-dir images/linux/ --bootfiles "boot.scr,Image,system.dtb,system-zynqmp-sck-kv-g-revB.dtb" --disk-name "mmcblk1" --wic-extra-args "-c gzip" --wks catsdogs-module-wic.wks --rootfs-file images/linux/rootfs.tar.gz`.
+4. See more [here](https://github.com/jona1115/cats_dogs_acceleration_petalinux/tree/main?tab=readme-ov-file#how-to-run).
 
 ### How does Petalinux/Yocto work?
 - Petalinux is built on top of Yocto. Petalinux provides some abstraction for the complicated Yocto system.
@@ -21,6 +22,7 @@ In this document, I will show you some of my tips on debugging stuff on Yocto/Pe
 - Note that while in the menu, you can type `/` to search. Saving you time.
 - Yocto/Petalinux calls a package "layer", their names usually starts with "meta-".
 - In each layer, there is a `conf` folder with a `layer.conf` file that defines how a layer works. Petalinux uses an extra file `petalinuxbsp.conf` to define how a layer work and what module to include.
+- When Petalinux (Yocto is a bit different) creates an image, it creates a `.wic.gz` file that you can use [Balena Etcher](https://etcher.balena.io/) to flash onto an SD card. 
 
 ### Adding a package/module to Petalinux
 - See my tutorial on how to add Java [here](https://github.com/jona1115/cats_dogs_acceleration/tree/main/documentations/vivadoTRD_and_Petalinux#java).
