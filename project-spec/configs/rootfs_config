@@ -4128,7 +4128,7 @@ CONFIG_resnet50=y
 CONFIG_nano=y
 CONFIG_opencl-headers-dev=y
 # CONFIG_openjdk-7 is not set
-CONFIG_openjdk-8=y
+# CONFIG_openjdk-8 is not set
 # CONFIG_openjdk-8-native is not set
 # CONFIG_openjre-8 is not set
 CONFIG_packagegroup-petalinux-som=y
