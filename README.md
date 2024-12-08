@@ -19,7 +19,7 @@
 4. Flash onto SD card: The packaged image is in `<plnx-proj-root>/images/linux` in a file ending with `.wic.gz`. Use [balena etcher](https://etcher.balena.io/) to flash it onto a SD card.
 
 **IMPORTANT**:
-- You most likely will get an openssh/dropbear error when run initially. The guide on fixing is [here](https://github.com/jona1115/cats_dogs_acceleration/blob/main/documentations/vivadoTRD_and_Petalinux/README.md#openssh).
+- You most likely will get an openssh/dropbear error when run initially. The guide on fixing is step 2i in the openssh section as per [here](https://github.com/jona1115/cats_dogs_acceleration/blob/main/documentations/vivadoTRD_and_Petalinux/README.md#openssh).
 - If you run into other build/package issues, [this page](https://github.com/jona1115/cats_dogs_acceleration/blob/main/documentations/vivadoTRD_and_Petalinux/README.md) probably has your answer.
 
 ### How was this project built?
