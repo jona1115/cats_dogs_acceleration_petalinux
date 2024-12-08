@@ -14,7 +14,7 @@
 
 ### How to run?
 1. Always remember to source your Petalinux project. That is, run `source <path-to-petalinux-install-dir>/settings.sh`.
-2. You should be able to run the build without needing any configurations: `petalinux-build`
+2. You should be able to run the build without needing any configurations: `petalinux-build` (halfway through the build, a dropbear error is inevitable, see below for fix)
 3. Package it into a wic file: `petalinux-package --wic --images-dir images/linux/ --bootfiles "boot.scr,Image,system.dtb,system-zynqmp-sck-kv-g-revB.dtb" --disk-name "mmcblk1" --wic-extra-args "-c gzip" --wks catsdogs-package-wic.wks --rootfs-file images/linux/rootfs.tar.gz`
 4. Flash onto SD card: The packaged image is in `<plnx-proj-root>/images/linux` in a file ending with `.wic.gz`. Use [balena etcher](https://etcher.balena.io/) to flash it onto a SD card.
 
